@@ -15,6 +15,7 @@ adb install -r ../opensource/app/build/outputs/apk/prd/release/opensource-prd-re
 ~~~
 
 以下修改均来自AI：claude-sonnet-4-5
+
 1.取消混淆，使其可以使用Android studio导出数据
 
 2.修复第二次打开闪退的问题
