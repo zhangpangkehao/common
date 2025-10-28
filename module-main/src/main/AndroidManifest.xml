@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name=".module.main.view.MainAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.main.bill.view.BillAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.main.calendar.view.CalendarAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.main.statistics.view.StatisticsAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.setting.view.SettingAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.theme_select.view.ThemeSelectAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.app_update.view.AppUpdateAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.app_share.view.AppShareAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+    </application>
+
+</manifest>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name=".module.first_sync.view.FirstSyncAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.label_info.view.LabelInfoAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.label_crud.view.LabelCrudAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.label_select.view.LabelSelectAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.category_info.view.CategoryInfoAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.category_sub_info.view.CategorySubInfoAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.category_crud.view.CategoryCrudAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.category_select.view.CategorySelectAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.category_select1.view.CategorySelect1Act"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.book_info.view.BookInfoAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.book_crud.view.BookCrudAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.book_select.view.BookSwitchAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.book_select1.view.BookSelect1Act"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.book_member.view.BookMemberAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.book_invite.view.BookInviteAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.account_info.view.AccountInfoAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.account_detail.view.AccountDetailAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.account_crud.view.AccountCrudAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.account_select.view.AccountSelectAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.account_select1.view.AccountSelect1Act"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.account_icon_select.view.AccountIconSelectAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_image_crud.view.BillImageCrudAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_crud.view.BillCrudAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_detail.view.BillDetailAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_list.view.BillListAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_search.view.BillSearchAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.price_calculate.view.PriceCalculateAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.icon_select.view.IconSelectAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_album.view.BillAlbumAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_cycle.view.BillCycleAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_cycle_crud.view.BillCycleCrudAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_cycle_crud.sub_module.repeat_count.view.RepeatCountAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.bill_cycle_crud.sub_module.note.view.BillCycleNoteAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.sync_log.view.SyncLogAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.ai_bill_chat.view.AiBillChatAct"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".module.ai_bill_create.view.AiBillCreateAct"
+            android:theme="@style/Theme.Tally.App.Transparent"
+            android:windowSoftInputMode="adjustNothing" />
+    </application>
+
+</manifest>

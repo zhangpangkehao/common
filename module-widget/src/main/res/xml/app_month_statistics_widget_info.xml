@@ -1,0 +1,11 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/res_str_current_month_shou_zhi"
+    android:initialLayout="@layout/glance_default_loading_layout"
+    android:minWidth="80dp"
+    android:minHeight="40dp"
+    android:minResizeWidth="80dp"
+    android:minResizeHeight="40dp"
+    android:updatePeriodMillis="0"
+    android:previewImage="@drawable/widget_month_stat_preview"
+    android:resizeMode="horizontal|vertical">
+</appwidget-provider>
